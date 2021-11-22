@@ -65,6 +65,8 @@ justify-content: center;
 flex-wrap: wrap;
 margin: 3.5%;
 border-radius: 15px;
+box-shadow: 0px 4px 8px rgb(100, 100, 100);
+border: 2px solid #99b0b9;
  }
 
  .home-cta {
@@ -85,6 +87,8 @@ border-radius: 15px;
    flex-wrap: wrap;
    margin: 5.5%;
    border-radius: 5px;
+   box-shadow: 0px 4px 8px rgb(100, 100, 100);
+   border: 2px solid #99b0b9;
     }
    
 .about-text {
@@ -99,9 +103,11 @@ line-height: 1.3;
 }
 
 .skillsmatrix{
-display: inline-flex;   
-grid-column-gap: 50px;
-grid-row-gap: 50px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 .skillsmatrix li{
